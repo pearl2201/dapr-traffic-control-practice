@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  camerasimulation:
+    image: ${DOCKER_REGISTRY-}camerasimulation
+    build:
+      context: .
+      dockerfile: CameraSimulation/Dockerfile
+
+  finecollectionservice:
+    image: ${DOCKER_REGISTRY-}finecollectionservice
+    build:
+      context: .
+      dockerfile: FineCollectionService/Dockerfile
+
+
+  trafficcontrolservice:
+    image: ${DOCKER_REGISTRY-}trafficcontrolservice
+    build:
+      context: .
+      dockerfile: TrafficControlService/Dockerfile
+
+
+  vehicleregistrationservice:
+    image: ${DOCKER_REGISTRY-}vehicleregistrationservice
+    build:
+      context: .
+      dockerfile: VehicleRegistrationService/Dockerfile
+
+
+   mailboxservice:
+    image: maildev/maildev
+    ports:
+    - 1080:1080
+    - 1025:1025
+

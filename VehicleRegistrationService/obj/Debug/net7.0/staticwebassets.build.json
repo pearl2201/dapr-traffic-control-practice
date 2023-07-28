@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NtTjhnMUUBnLle5RxBGL2eiPzrIuCELPIgGxhohBApY=",
+  "Source": "VehicleRegistrationService",
+  "BasePath": "_content/VehicleRegistrationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

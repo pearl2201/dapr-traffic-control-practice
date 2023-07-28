@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{B3A4508E-4DBE-412F-8686-0075D304CA3A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrafficControlService/Actors/VehicleActor.cs">
+    <Files>
+      <File FileName="CameraSimulation/Program.cs" />
+      <File FileName="CameraSimulation/Dockerfile" />
+      <File FileName="FineCollectionService/Dockerfile" />
+      <File FileName="TrafficControlService/Dockerfile" />
+      <File FileName="VehicleRegistrationService/Dockerfile" />
+      <File FileName="docker-compose.yml" />
+      <File FileName="CameraSimulation/Events/VehicleRegistered.cs" Line="4" Column="96" />
+      <File FileName="CameraSimulation/Proxies/ITrafficControlService.cs" />
+      <File FileName="FineCollectionService/Models/SpeedingViolation.cs" />
+      <File FileName="FineCollectionService/Models/VehicleInfo.cs" />
+      <File FileName="FineCollectionService/DomainServices/IFineCalculator.cs" />
+      <File FileName="FineCollectionService/DomainServices/HardCodedFineCalculator.cs" />
+      <File FileName="FineCollectionService/Proxies/VehicleRegistrationService.cs" />
+      <File FileName="FineCollectionService/Program.cs" Line="15" Column="1" />
+      <File FileName="TrafficControlService/Actors/IVehicleActor.cs" Line="8" Column="42" />
+      <File FileName="TrafficControlService/Events/VehicleRegistered.cs" Line="4" Column="96" />
+      <File FileName="TrafficControlService/DomainServices/ISpeedingViolationCalculator.cs" Line="8" Column="6" />
+      <File FileName="TrafficControlService/DomainServices/DefaultSpeedingViolationCalculator.cs" Line="32" Column="6" />
+      <File FileName="TrafficControlService/Models/SpeedingViolation.cs" Line="4" Column="117" />
+      <File FileName="TrafficControlService/Models/VehicleState.cs" Line="16" Column="6" />
+      <File FileName="TrafficControlService/Repositories/IVehicleStateRepository.cs" Line="10" Column="6" />
+      <File FileName="TrafficControlService/Repositories/DaprVehicleStateRepository.cs" Line="1" Column="1" />
+      <File FileName="TrafficControlService/Actors/VehicleActor.cs" Line="11" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DaprTrafficControl" expanded="True">
+            <Node name="CameraSimulation" expanded="True">
+              <Node name="Events" expanded="True" />
+              <Node name="Proxies" expanded="True" />
+            </Node>
+            <Node name="docker-compose" expanded="True" />
+            <Node name="TrafficControlService" expanded="True">
+              <Node name="Actors" expanded="True" />
+              <Node name="DomainServices" expanded="True" />
+              <Node name="Events" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="VehicleRegistrationService" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CameraSimulation PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

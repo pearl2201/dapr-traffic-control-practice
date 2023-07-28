@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WsPU9V45cAxWDE5IS8pYiRtKg5VTq+Eu2kE3LJiXOsc=",
+  "Source": "TrafficControlService",
+  "BasePath": "_content/TrafficControlService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

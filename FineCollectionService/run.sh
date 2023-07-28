@@ -1,0 +1,1 @@
+dapr run --app-id finecollectionservice --app-port 6003 --dapr-http-port 3603 --dapr-grpc-port 60003 --resources-path ../components/ -- dotnet run
